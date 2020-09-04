@@ -1,3 +1,5 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+
 class PersonModel {
   PersonModel({
     this.key,
@@ -37,7 +39,7 @@ class PersonModel {
     };
   }
 
-factory PersonModel.fromJson(parsedJson) {
+  factory PersonModel.fromJson(parsedJson) {
     return PersonModel(
       key: parsedJson.id,
       name: parsedJson.data()["name"],
@@ -46,5 +48,5 @@ factory PersonModel.fromJson(parsedJson) {
       deletedDate: parsedJson.data()["deleteDate"],
       createdDate: parsedJson.data()["createdDate"],
     );
-
+  }
 }
