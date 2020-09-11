@@ -14,8 +14,8 @@ class PersonModel {
   String name;
   String phone;
   bool isDeleted;
-  Timestamp deletedDate;
-  Timestamp createdDate;
+  dynamic deletedDate;
+  dynamic createdDate;
 
   factory PersonModel.fromSnapshot(DocumentSnapshot snapshot) {
     return PersonModel(

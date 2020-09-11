@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891242689318",
+    "firebase_url": "https://firtsappbalcoder.firebaseio.com",
+    "project_id": "firtsappbalcoder",
+    "storage_bucket": "firtsappbalcoder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891242689318:android:2047dabcae5210e02a87e7",
+        "android_client_info": {
+          "package_name": "com.example.first_app_balcoder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891242689318-pkage39tp644cb1tmdm1h43c6e90bug0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATDAhOZ4NGE0BGy6acxWGFsBQOw2ze4rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891242689318-pkage39tp644cb1tmdm1h43c6e90bug0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
